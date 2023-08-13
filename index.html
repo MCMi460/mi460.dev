@@ -11,12 +11,21 @@
       content = 'width=device-width, initial-scale=1'
     >
 
+    <meta content = 'mi460.dev' property = 'og:site_name'> <!-- Small text at top -->
+    <meta content = "Hey, I'm Deltaion Lee" property = 'og:title'> <!-- Big link text -->
+    <meta
+      content = 'Python developer, anti-maintainer, procrastinator'
+      property = 'og:description'
+    > <!-- This is the paragraph of text that describes the website! -->
+    <meta content = '/static/assets/avatars/ray.png' property = 'og:image'> <!-- Here's the image! -->
+    <meta name = 'theme-color' content = '#1e822f'> <!-- This changes the embed color on Discord! -->
+
     <link rel = 'stylesheet' href = 'static/css/style.css' />
 
     <script type = 'text/javascript' src = 'static/js/script.js'>
     </script>
   </head>
-  <body>
+  <body onload = 'load();'>
     <div class = 'header'>
       <a href = 'javascript:switch_avatar()'>
         <img
@@ -119,6 +128,12 @@
               href = 'https://github.com/MCMi460/OpenEmuRPC'
               target = '_blank'
             >OpenEmuRPC</a>, a Mac app that reads your currently playing OpenEmu game and displays it as a Discord RPC presence
+          </li>
+          <li>
+            <a
+              href = 'https://github.com/MCMi460/razor'
+              target = '_blank'
+            >Razor</a>, a Windows app that downloads music from YouTube for use in an epic music player with integrated Discord support and everything!
           </li>
           <li>
             ...and more that I'm too lazy to add on right now!

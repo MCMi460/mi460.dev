@@ -1,0 +1,103 @@
+/* Made by Deltaion Lee on Github */
+
+html {
+  color-scheme: dark;
+  min-height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #fff;
+
+  background-repeat: no-repeat;
+  background: #2a284a;
+  background: linear-gradient(145deg, #2a284a 0%, #27522e 100%);
+
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+div.box {
+  display: flex;
+}
+div.column {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+div.row {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+div.header {
+}
+div.header h1, h3 {
+  font-weight: normal;
+}
+
+div.items {
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+div.item {
+  font-size: 1rem;
+  background-color: #292626;
+  border-radius: 1.5rem;
+  border: solid 10px #363232;
+  min-height: 10rem;
+  width: 30rem;
+  padding: 1rem;
+}
+div.item * {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px;
+  margin-left: 1rem;
+}
+div.item li > * {
+  padding: 0;
+  margin: 0;
+}
+
+div.item#blood {
+  border-color: #760903;
+  background-color: #650702;
+}
+div.item#forest {
+  border-color: #022e0b;
+  background-color: #022108;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.title {
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1.9rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.tag {
+  margin-top: 0;
+  color: #8b8a99;
+}
+
+img {
+  height: 10rem;
+  width: auto;
+}
+img#avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 10rem;
+  background-color: #000;
+}

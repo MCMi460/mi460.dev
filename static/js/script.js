@@ -7,6 +7,7 @@ const avatars = [
   'oled.jpg',
   'orange.png',
   'cube.png',
+  'dot.gif',
 ]
 var avatar_index = 0;
 

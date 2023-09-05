@@ -27,5 +27,8 @@ function switch_avatar(choice = null) {
 }
 
 function load() {
+  /* This feature would be cooler if it happened pre-load.
+  // But the element isn't loaded in yet for that to happen.
   switch_avatar(Math.floor(Math.random() * avatars.length)); // Random choice of avatar at load
+  */
 }
